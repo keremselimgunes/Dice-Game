@@ -1,0 +1,64 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  gap: 50px;
+  background-color: rgb(37, 41, 47)
+}
+
+.board {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(254, 250, 209)
+}
+
+h2 {
+  font-size: 4rem;
+  margin: 3rem 0;
+  color: rgb(25, 193, 131)
+}
+
+input {
+  margin: 2.5rem 0;
+  padding: 3rem 0;
+  border-style: none; 
+  border-radius: 1.5rem;
+  display: block;
+  background-color: rgb(37, 41, 47);
+}
+
+input::placeholder {
+  padding-left: 0.75rem;
+  font-size: 1rem;
+}
+
+input:focus {
+  color: rgb(25, 193, 131)
+}
+
+button {
+  padding: 1.5rem 8rem;
+  border-style: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: rgb(25, 193, 131);
+  color: white;
+}
+
+button:disabled {
+  background-color: rgb(126, 154, 152)
+}
